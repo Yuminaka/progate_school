@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-weight: 400;
+  font-family: 'Dosis', sans-serif;
+  font-size: 14px;
+  color: #888;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #323A45;
+  transition: all .3s;
+}
+
+/*header*/
+header {
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  line-height: 50px;
+  box-shadow: -1px 1px 1px rgba(0,0,0,0.1);*/
+}
+
+.header_title {
+  float: left;
+}
+
+.header_menu {
+	float: right;
+}
+
+.header_menu li {
+	float: left;
+}
+	
