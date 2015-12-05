@@ -238,6 +238,17 @@ header a:hover,
   color: #222;
 }
 
+.column_all{
+  position: relative;
+  width: 500px;
+  margin: 20px;
+}
+
+.column_all img{
+  width: 460px;
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+}
 
 
 
