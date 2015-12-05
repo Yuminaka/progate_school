@@ -11,7 +11,7 @@ a{
 }
 
 ul{
-
+  padding: 0;
 }
 
 li{
@@ -20,10 +20,11 @@ li{
 
 .section_title{
   text-align: center;
+  padding: 20px 0;
 }
 
 header{
-  background-color: #515151;
+  background-color: white;
   height: 50px;
   width: 100%;
   position: fixed;
@@ -38,7 +39,7 @@ header a:hover,
 }
 
 .header_title{
-  background-color: #313131;
+  /*background-color: #313131;*/
   font-weight: 600;
   float: left;
   margin: 12px;
@@ -46,7 +47,7 @@ header a:hover,
 }
 
 .header_menu{
-  background-color: #654987;
+  /*background-color: #654987;*/
   float: right;
   margin-right: 20px;
 }
@@ -62,6 +63,7 @@ header a:hover,
   /*font-weight: 500;*/
 }
 
+/*トップ*/
 .top-wrapper{
 	margin: 0 auto;
   text-align: center;
@@ -69,6 +71,7 @@ header a:hover,
 	background-image: url(./images/backgrounds/top.jpg);
   background-size: cover;
   color: white;
+  padding: 100px 0;
 }
 
 .btn{
@@ -84,26 +87,88 @@ header a:hover,
 
 /*言語*/
 .lang-wrapper{
-  background-color: #ea9d3a;
+  /*background-color: #ea9d3a;*/
 }
 
 .lang-section_wrapper{
   text-align: center;
+  width: 890px;
+  margin: 0 auto;
 }
 
 .lang_box{
-  /*float: left;*/
+  float: left;
+  text-align: center;
+  width: 50%;
 }
 
 /*特徴*/
 .features{
-  background-color: #cbaab1;
+  /*background-color: #cbaab1;*/
+  clear: both;
 }
 
 .features-wrapper img{
   text-align: center;
 }
 
+.features-img{
+  text-align: center;
+}
+
+.features_box-wrapper{
+  width: 900px;
+  margin: 0 auto;
+}
+
+.features_box{
+  float: left;
+  width: 45%;
+  padding: 0 20px; 
+}
+
+/*コース*/
+.course-wrapper{
+  clear: both;
+}
+
+.price-box-wrapper{
+  /*background-color: #999;*/
+  width: 980px;
+  margin: 0 auto;
+}
+
+.price-box{
+  background-color: white;
+  float: left;
+  text-align: center;
+  width: 25%;
+  padding: 10px 18px;
+  border: solid 1px #888;
+  margin: 0 20px;
+}
+
+.price-box li{
+  padding: 20px 0;
+}
+
+.price-box h3{
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.course-list{
+ border-bottom: solid 1px #eee;
+}
+
+.apply{
+  background-color: #1a182e;
+}
+
+/*メンター*/
+.mentor-wrapper{
+  clear: both;
+}
 
 .mentor-img{
   width: 200px;
@@ -114,10 +179,6 @@ header a:hover,
   margin: 5px;
 }
 
-/*コース*/
-.course-wrapper{
-  background-color: #9dedc3;
-}
 
 /*メンター*/
 .mentor-wrapper{
@@ -135,17 +196,60 @@ header a:hover,
   background: url("./images/backgrounds/night_view.jpg");
   background-size: cover;
   text-align: center;
+  padding: 150px 0;
+  /*height: 100%;*/
 }
 
 /*コラム*/
 .columns_wrapper{
   text-align: center;
+  background-color: #eee;
 }
 
-.column-box{
+/*.column-box{
   display: inline-block;
+}*/
+
+.filter{
+  /*background-color: #999;*/
+  width: 400px;
+  margin: 0 auto 100px;
+  /*text-align: center;*/
 }
 
+.filter li{
+  float: left;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 0 5px;
+}
+
+/*.filter-item{
+  float: left;
+  padding: 10px 15px;
+}*/
+
+.filter-list-backgreen{
+  background-color: #16acbe;
+}
+
+.filter-list-backwhite{
+  background-color: white;
+  color: #222;
+}
+
+
+
+
+
+
+
+
+
+
+.column_all{
+  clear: both;
+}
 
 
 

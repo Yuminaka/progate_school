@@ -104,11 +104,11 @@
 					<div class="section_title">
 						<h2>特徴</h2>
 					</div>
-					<div>
+					<div class="features-img">
 						<img src="./images/mac_code.png">
 					</div>
 				</div>
-				<div class="container">
+				<div class="features_box-wrapper">
 					<div class="features_box">
 						<h4>① ProgateでWEB開発の基礎知識を身につけよう</h4>
 						<p>Progateで各コースをクリアして基礎知識を身につけましょう。それぞれ２周することによって知識を定着させます。</p>
@@ -132,47 +132,45 @@
 
 		<!-- コース -->
 		<div class="course-wrapper">
-			<div class="container">
-				<div class="container">
-					<div class="section_title">
-						<h2>コースを選ぶ</h2>
-					</div>
-					<div class="price">
-						<h3>短期集中2週間コース</h3>
-						<h3>3万円</h3>
-						<ul>
-							<li>期間 : 2週間</li>
-							<li>チャットでの質問 : ◯</li>
-							<li>オフィスでの質問 : ◯</li>
-							<li>
-								<a>申し込む</a>
-							</li>
-						</ul>
-					</div>
-					<div class="price">
-						<h3>通常1ヶ月コース</h3>
-						<h3>5万円</h3>
-						<ul>
-							<li>期間 : 1ヶ月</li>
-							<li>チャットでの質問 : ◯</li>
-							<li>オフィスでの質問 : ◯</li>
-							<li>
-								<a>申し込む</a>
-							</li>
-						</ul>
-					</div>
-					<div class="price">
-						<h3>土日開発2ヶ月コース</h3>
-						<h3>8万円</h3>
-						<ul>
-							<li>期間 : 2ヶ月</li>
-							<li>チャットでの質問 : ◯</li>
-							<li>オフィスでの質問 : ◯</li>
-							<li>
-								<a>申し込む</a>
-							</li>
-						</ul>
-					</div>
+			<div class="section_title">
+				<h2>コースを選ぶ</h2>
+			</div>
+			<div class="price-box-wrapper">
+				<div class="price-box">
+					<h3>短期集中2週間コース</h3>
+					<h3>3万円</h3>
+					<ul>
+						<li class="course-list">期間 : 2週間</li>
+						<li class="course-list">チャットでの質問 : ◯</li>
+						<li class="course-list">オフィスでの質問 : ◯</li>
+						<li>
+							<a class="btn apply" href="#">申し込む</a>
+						</li>
+					</ul>
+				</div>
+				<div class="price-box">
+					<h3>通常1ヶ月コース</h3>
+					<h3>5万円</h3>
+					<ul>
+						<li class="course-list">期間 : 1ヶ月</li>
+						<li class="course-list">チャットでの質問 : ◯</li>
+						<li class="course-list">オフィスでの質問 : ◯</li>
+						<li>
+							<a class="btn apply" href="#">申し込む</a>
+						</li>
+					</ul>
+				</div>
+				<div class="price-box">
+					<h3>土日開発2ヶ月コース</h3>
+					<h3>8万円</h3>
+					<ul>
+						<li class="course-list">期間 : 2ヶ月</li>
+						<li class="course-list">チャットでの質問 : ◯</li>
+						<li class="course-list">オフィスでの質問 : ◯</li>
+						<li>
+							<a class="btn apply" href="#">申し込む</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -218,9 +216,11 @@
 				</div>
 				<!-- コラム選択部分 -->
 				<div class="filter">
-					<div class="filter-item">show all</div>
-					<div class="filter-item">コラム</div>
-					<div class="filter-item">プログラミングTips</div>
+					<ul>
+						<li class="btn filter-list-backgreen">show all</li>
+						<li class="btn filter-list-backwhite">コラム</li>
+						<li class="btn filter-list-backwhite">プログラミングTips</li>
+					</ul>	
 				</div>
 				<!-- コラムアイテム部分 -->
 				<div class="column_all">
