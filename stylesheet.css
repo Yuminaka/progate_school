@@ -237,42 +237,75 @@ header a:hover,
 }
 
 .column-box{
-  /*position: relative;*/
+  position: relative;
   width: 500px;
-  margin: 15px;
+  margin: 20px;
   float: left;
 }
 
 .column-box img{
   width: 480px;
   border: 10px solid #fff;
-  border-bottom: 50px solid #fff;
+  border-bottom: 95px solid #fff;
   -webkit-box-shadow: 3px 3px 3px #999;
      -moz-box-shadow: 3px 3px 3px #999;
           box-shadow: 3px 3px 3px #999;
 }
 
 .column-textarea{
-  /*position: absolute;*/
+  position: absolute;
+  top: 300px;
   text-align: center;
   width: 100%;
 }
 
-/*.loadmore{
+.loadmore{
   clear: both;
+  padding: 20px 0 40px;
 }
-*/
 
-
-
-
-
-
-
-
-
+/*コンタクト*/
 .contact-wrapper{
   clear: both;
+  color: #fff;
+  background-image: url(./images/backgrounds/contact.jpg);
+  background-size: cover;
+  padding-bottom: 650px;
+}
+
+.contact-box{
+  width: 600px;
+  float: left;
+}
+
+.contact-area{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+form{
+  /* フォームをページの中央に置く */
+  /*margin: 0 auto;*/
+  /*width: 400px;*/
+  /* フォームの範囲がわかるようにする */
+  /*padding: 1em;*/
+  /*border: 1px solid #CCC;*/
+  border-radius: 1em;
+}
+
+.contact-form-area{
+  padding: 20px 0;
+  margin: 20px 0;
+}
+
+.submit-btn{
+  color: #fff;
+  background-color: #888;
+  /*padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;*/
 }
 
 
@@ -280,6 +313,7 @@ header a:hover,
 /*sns部分*/
 .sns-wrapper{
   background-color: #676767;
+  clear: both;
 }
 
 .sns-wrapper h2{

@@ -233,7 +233,7 @@
 							</a>
 							<div class="column-textarea">
 								<a class="column_title" href="#">20代のエンジニアが初めての転職でつまずきやすい点</a>
-								<p>コラム</p>
+								<div>コラム</div>
 							</div>	
 						</div>
 						<div class="column-box tip">
@@ -244,7 +244,7 @@
 							</a>
 							<div class="column-textarea">
 								<a href="column_title">HTML5の新タグについて</a>
-								<p>HTML</p>
+								<div>HTML</div>
 							</div>
 						</div>
 						<div class="column-box tip">
@@ -292,8 +292,8 @@
 							</div>
 						</div>
 					</div>
-					<div>
-						<a class="loadmore" href="#">Load More</a>
+					<div class="loadmore">
+						<a class="btn apply" href="#">Load More</a>
 					</div>
 				</div>
 			</div>
@@ -305,16 +305,32 @@
 				<div class="section_title">
 					<h2>お問い合わせ</h2>
 				</div>
-				<div class="contact-form">
-					<h3>メッセージを送る</h3>
-					<!-- フォーム部分 -->
-				</div>
-				<div class="about">
-					<h3>About Us</h3>
-					<p>プログラミングは世界を変える力です。そしてあなたの人生を変える力です。この信念は、私たち自身がプログラミングで人生を変えてきた原体験に基づいています。この原体験をもとに、Progateは「初心者から、創れる人を生み出す」ことを理念としています。プログラミングの最初のハードルを徹底的に低くし、世界一わかりやすく、楽しい学習環境を作ります。プログラミングを学びたい人の、せっかくの一歩を挫折で終わらせないために、私たちは全力で皆様に寄り添い、日本のプログラミング教育を変えていきます。私たちと一緒にプログラミングを学んでみませんか？</p>
-					<h3>Address</h3>
-					<p>東京都渋谷区神泉町20-24 Bricks 7F</p>
-					<p>Phone: 03-6455-0950</p>
+				<div class="contact-area">
+					<div class="contact-box contact-form">
+						<h3>メッセージを送る</h3>
+						<form action="" method="post">
+							<div>
+								<input class="contact-form-area" type="email" id="email" placeholder="Email" size="110"/>
+							</div>
+							<div>
+								<input class="contact-form-area" type="text" id="subject" placeholder="Subject" size="110"/>
+							</div>
+							<div>
+								<textarea class="contact-form-area" id="msg" name="msg" placeholder="Message" cols="79"  rows="15"></textarea>
+							</div>
+							<div class="submit-btn">
+        				<button type="submit">Submit!</button>
+    					</div>
+						</form>
+						<!-- フォーム部分 -->
+					</div>
+					<div class="contact-box about">
+						<h3>About Us</h3>
+						<p>プログラミングは世界を変える力です。そしてあなたの人生を変える力です。この信念は、私たち自身がプログラミングで人生を変えてきた原体験に基づいています。この原体験をもとに、Progateは「初心者から、創れる人を生み出す」ことを理念としています。プログラミングの最初のハードルを徹底的に低くし、世界一わかりやすく、楽しい学習環境を作ります。プログラミングを学びたい人の、せっかくの一歩を挫折で終わらせないために、私たちは全力で皆様に寄り添い、日本のプログラミング教育を変えていきます。私たちと一緒にプログラミングを学んでみませんか？</p>
+						<h3>Address</h3>
+						<p>東京都渋谷区神泉町20-24 Bricks 7F</p>
+						<p>Phone: 03-6455-0950</p>
+					</div>
 				</div>
 			</div>
 		</div>
