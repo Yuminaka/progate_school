@@ -53,6 +53,7 @@ h6{
   font-weight: 200;
   padding-bottom: 20px; 
   margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .lang-section_wrapper p,
@@ -80,7 +81,8 @@ header{
 }
 
 header a:hover,
-.sns-icon a:hover{
+.sns-icon a:hover,
+.column-textarea a:hover{
   color: #2cb499;
 }
 
@@ -116,42 +118,35 @@ header a:hover,
   font-weight: 300;
 }
 
-/*.detail a{
-  font-size: 18px;
-  color: #fff;
-}*/
-
-.link{
-  color: #fff;
-}
-
 .top-wrapper{
 	margin: 0 auto;
   text-align: center;
 	background-image: url(./images/backgrounds/top.jpg);
   background-size: cover;
   color: white;
-  padding: 190px 0;
-  -webkit-filter: brightness(0.4);
+  /*padding: 190px 0;*/
+  /*-webkit-filter: brightness(0.4);*/
 }
 
 .btn{
   padding: 8px 24px;
   color: #fff;
   display: inline-block;
-  opacity: 0.4;
+  /*opacity: 0.4;*/
 }
 
 .detail{
   background-color: #777;
   border: 1px solid #fff;
+  opacity: 0.4;
+}
+
+.back_img{
+  background-color: rgba(0,0,0,0.3);
+  padding: 190px 0;
 }
 
 /*言語*/
-.lang-wrapper{
-  /*background-color: #ea9d3a;*/
-}
-
 .lang-section_wrapper{
   text-align: center;
   width: 890px;
@@ -167,7 +162,6 @@ header a:hover,
 
 /*特徴*/
 .features{
-  /*background-color: #dcd5d9;*/
   clear: both;
 }
 
@@ -202,11 +196,15 @@ header a:hover,
 .course-wrapper{
   clear: both;
   background-color: #eaeaea;
-  height: 900px;
+  height: 850px;
 }
 
 .course-title{
   background-color: #ebebeb;
+}
+
+.onemonth h5{
+  background-color: #22a3a5;
 }
 
 .price-box-wrapper{
@@ -269,8 +267,13 @@ header a:hover,
 }
 
 .mentor_box{
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
+}
+
+.mentor_box h4{
+  color: #666;
+  font-size: 1.1em
 }
 
 /*メッセージ*/
@@ -280,7 +283,10 @@ header a:hover,
   background-size: cover;
   text-align: center;
   padding: 150px 0;
-  /*height: 100%;*/
+}
+
+.message_wrapper h4{
+  color: #fff;
 }
 
 /*コラム*/
@@ -295,30 +301,35 @@ header a:hover,
 
 .filter{
   /*background-color: #999;*/
-  width: 400px;
-  margin: 0 auto 100px;
+  width: 430px;
+  margin: 0 auto;
+  padding-bottom: 80px;
   /*text-align: center;*/
 }
 
 .filter li{
   float: left;
-  padding: 10px 20px;
+  /*padding: 10px 20px;*/
   text-align: center;
   margin: 0 5px;
 }
-
-/*.filter-item{
-  float: left;
-  padding: 10px 15px;
-}*/
 
 .filter-list-backgreen{
   background-color: #16acbe;
 }
 
 .filter-list-backwhite{
-  background-color: white;
+  background-color: #fff;
   color: #222;
+}
+
+.filter a{
+  display: block;
+}
+
+.filter a:hover{
+  background-color: #16acbe;
+  color: #fff;
 }
 
 .column-box-wrapper{
@@ -349,9 +360,14 @@ header a:hover,
   width: 100%;
 }
 
+.column-textarea a{
+  color: #444;
+  font-weight: bolder;
+}
+
 .column-textarea p{
-  margin-top: 0;
-  font-size: 12px;
+  margin-top: 8px;
+  font-size: 13px;
   color: #bebebe;
 }
 
@@ -366,7 +382,22 @@ header a:hover,
   color: #fff;
   background-image: url(./images/backgrounds/contact.jpg);
   background-size: cover;
-  padding-bottom: 650px;
+  /*padding-bottom: 600px;*/
+}
+
+.container-contact{
+  background-color: rgba(0,0,0,0.5);
+  padding-bottom: 600px;
+}
+
+.contact-wrapper h2{
+  color: #fff;
+}
+
+.contact-wrapper h3{
+  color: #e0e2e2;
+  font-size: 22px;
+  font-weight: 300;
 }
 
 .contact-box{
@@ -376,45 +407,67 @@ header a:hover,
 
 .contact-area{
   width: 100%;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   padding: 0 30px;
 }
 
 form{
-  /* フォームをページの中央に置く */
-  /*margin: 0 auto;*/
-  /*width: 400px;*/
-  /* フォームの範囲がわかるようにする */
-  /*padding: 1em;*/
-  /*border: 1px solid #CCC;*/
-  border-radius: 1em;
+  width: 600px;
 }
 
 .contact-form-area{
   padding: 20px 0;
-  margin: 20px 0;
+  margin: 10px 0;
+  /*font-size: 20px;*/
+  background-color: rgba(0,0,0,0.3);
+  border-style: none;
 }
 
-.submit-btn{
+.button{
   color: #fff;
-  background-color: #888;
-  /*padding: 8px 24px;
-  color: white;
+  background-color: #35e0d2;
+  padding: 15px 25px;
+  color: #fff;
   display: inline-block;
-  opacity: 0.8;*/
+  /*opacity: 0.9;*/
+  border-style: none;
+  font-size: 15px;
+  font-weight: lighter;
 }
 
+::-webkit-input-placeholder {
+    color: #999;
+    font-size: 10px;
+    padding-left: 10px;
+}
 
+.about{
+  width: 500px;
+  margin-left: 40px;
+}
+
+.about p{
+  font-size: 13px;
+  color: #ebebeb;
+  padding-top: 7px;
+  padding-bottom: 10px;
+}
+
+.about i{
+  float: left;
+}
 
 /*sns部分*/
 .sns-wrapper{
-  background-color: #676767;
   clear: both;
+  /*margin-bottom: 10px;*/
+  /*padding-bottom: 10px;*/
+  height: 250px;
 }
 
 .sns-wrapper h2{
-  font-weight: 300;
-  font-size: 40px;
+  font-weight: 200;
+  font-size: 30px;
 }
 
 .sns-icon{
@@ -423,9 +476,14 @@ form{
   padding: 10px;
 }
 
+.sns-icon a{
+  color: #222;
+}
+
 /*footer部分*/
 footer{
   text-align: center;
   background-color: #222;
   padding: 40px 0;
+  font-size: 15px;
 }

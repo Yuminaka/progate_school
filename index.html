@@ -30,7 +30,7 @@
 							<a href="#column">コラム</a>
 						</li>
 						<li>
-							<a href="">お問い合わせ</a>
+							<a href="#contact">お問い合わせ</a>
 						</li>
 					</ul>
 				</div>	
@@ -131,7 +131,7 @@
 		</div>
 
 		<!-- コース -->
-		<div class="course-wrapper">
+		<div id="price" class="course-wrapper">
 			<div class="section_title">
 				<h2>コースを選ぶ</h2>
 			</div>
@@ -151,7 +151,7 @@
 					</ul>
 				</div>
 				<div class="price-box">
-					<div class="course-title">
+					<div class="course-title onemonth">
 						<h5>通常1ヶ月コース</h5>
 						<h6>5万円</h6>
 					</div>
@@ -215,7 +215,7 @@
 		</div>
 
 		<!-- コラム -->
-		<div class="columns_wrapper">
+		<div id="column" class="columns_wrapper">
 			<div class="container">
 				<div class="section_title">
 					<h2>コラム</h2>
@@ -224,8 +224,8 @@
 				<div class="filter">
 					<ul>
 						<li class="btn filter-list-backgreen">show all</li>
-						<li class="btn filter-list-backwhite">コラム</li>
-						<li class="btn filter-list-backwhite">プログラミングTips</li>
+						<li><a class="btn filter-list-backwhite" href="">コラム</a></li>
+						<li class="btn filter-list-backwhite"><a href="">プログラミングTips</a></li>
 					</ul>	
 				</div>
 				<!-- コラムアイテム部分 -->
@@ -233,9 +233,7 @@
 					<div class="column-box-wrapper">
 						<div class="column-box column">
 							<a href="#">
-								<div>
-									<img src="./images/portfolio/programmer.jpg">
-								</div>
+								<img src="./images/portfolio/programmer.jpg">
 							</a>
 							<div class="column-textarea">
 								<a class="column_title" href="#">20代のエンジニアが初めての転職でつまずきやすい点</a>
@@ -244,70 +242,60 @@
 						</div>
 						<div class="column-box tip">
 							<a href="">
-								<div>
-									<img src="./images/portfolio/html5.jpg">
-								</div>
+								<img src="./images/portfolio/html5.jpg">
 							</a>
 							<div class="column-textarea">
-								<a href="column_title">HTML5の新タグについて</a>
+								<a href="">HTML5の新タグについて</a>
 								<p>HTML</p>
 							</div>
 						</div>
 						<div class="column-box tip">
 							<a href="">
-								<div>
-									<img src="./images/portfolio/js.jpg">
-								</div>
+								<img src="./images/portfolio/js.jpg">
 							</a>
 							<div class="column-textarea">
-								<a href="column_title">Javascriptの文法まとめ</a>
+								<a href="">Javascriptの文法まとめ</a>
 								<p>Javascript</p>
 							</div>
 						</div>
 						<div class="column-box column">
 							<a href="">
-								<div>
-									<img src="./images/portfolio/books.jpg">
-								</div>
+								<img src="./images/portfolio/books.jpg">
 							</a>
 							<div class="column-textarea">
-								<a href="column_title">新卒ソフトウェアエンジニアのための技術書100冊</a>
+								<a href="">新卒ソフトウェアエンジニアのための技術書100冊</a>
 								<p>コラム</p>
 							</div>
 						</div>
 						<div class="column-box column">
 							<a href="">
-								<div>
-									<img src="./images/portfolio/engineer.jpg">
-								</div>
+								<img src="./images/portfolio/engineer.jpg">
 							</a>
 							<div class="column-textarea">
-								<a href="column_title">「プレイヤーでも年収1000万円に」エンジニアの評価制度</a>
+								<a href="">「プレイヤーでも年収1000万円に」エンジニアの評価制度</a>
 								<p>コラム</p>
 							</div>
 						</div>
 						<div class="column-box tip">
 							<a href="">
-								<div>
-									<img src="./images/portfolio/inspect.jpg">
-								</div>
+								<img src="./images/portfolio/inspect.jpg">
 							</a>
 							<div class="column-textarea">
-								<a href="column_title">要素の検証をしてみよう</a>
+								<a href="">要素の検証をしてみよう</a>
 								<p>HTML / CSS</p>
 							</div>
 						</div>
 					</div>
 					<div class="loadmore">
-						<a class="btn apply" href="#">Load More</a>
+						<a class="btn-apply" href="#">Load More</a>
 					</div>
 				</div>
 			</div>
 		</div>
 
 		<!-- コンタクト部分 -->
-		<div class="contact-wrapper"
-			<div class="container">
+		<div id="contact" class="contact-wrapper">
+			<div class="container-contact">
 				<div class="section_title">
 					<h2>お問い合わせ</h2>
 				</div>
@@ -324,8 +312,8 @@
 							<div>
 								<textarea class="contact-form-area" id="msg" name="msg" placeholder="Message" cols="79"  rows="15"></textarea>
 							</div>
-							<div class="submit-btn">
-        				<button type="submit">Submit!</button>
+							<div>
+        				<button class="button" type="submit">Submit</button>
     					</div>
 						</form>
 						<!-- フォーム部分 -->
@@ -334,6 +322,7 @@
 						<h3>About Us</h3>
 						<p>プログラミングは世界を変える力です。そしてあなたの人生を変える力です。この信念は、私たち自身がプログラミングで人生を変えてきた原体験に基づいています。この原体験をもとに、Progateは「初心者から、創れる人を生み出す」ことを理念としています。プログラミングの最初のハードルを徹底的に低くし、世界一わかりやすく、楽しい学習環境を作ります。プログラミングを学びたい人の、せっかくの一歩を挫折で終わらせないために、私たちは全力で皆様に寄り添い、日本のプログラミング教育を変えていきます。私たちと一緒にプログラミングを学んでみませんか？</p>
 						<h3>Address</h3>
+						<i class="fa fa-map-marker"></i> 
 						<p>東京都渋谷区神泉町20-24 Bricks 7F</p>
 						<p>Phone: 03-6455-0950</p>
 					</div>
